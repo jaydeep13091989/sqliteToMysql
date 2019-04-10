@@ -8,10 +8,10 @@ import time
 
 #Here you can set the configaration of your mysql server.
 mydb = mysql.connector.connect(
-      host="sg1-wss1.a2hosting.com",
-      user="rdbne_raghuveer",
-      passwd="mobile123",
-      database="rdbnetin_neo52"
+      host="sg1",
+      user="rdbn",
+      passwd="mo",
+      database="rdb"
     )
 def insert_to_mysql(date,open1,high,low,close,adj,volume):  
     cursor_mysql = mydb.cursor()
